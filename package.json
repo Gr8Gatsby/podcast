@@ -1,0 +1,17 @@
+{
+  "name": "gr8gatsby-podcast",
+  "version": "1.0.0",
+  "description": "The Great Gatsby Podcast",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build-feed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "podcast",
+    "gatsby",
+    "rss"
+  ],
+  "author": "Great Gatsby Team",
+  "license": "MIT"
+} 
