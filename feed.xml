@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Triggering redeploy: small update -->
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Great Gatsby Podcast</title>
+    <description>Exploring the world of Gatsby and modern web development. Join us as we dive into the latest features, best practices, and real-world applications of Gatsby.</description>
+    <link>https://gr8gatsby.github.io</link>
+    <language>en-us</language>
+    <copyright>Copyright © 2024 Great Gatsby Team</copyright>
+    <itunes:author>Great Gatsby Team</itunes:author>
+    <itunes:owner>
+      <itunes:name>Great Gatsby Team</itunes:name>
+      <itunes:email>contact@gr8gatsby.github.io</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://gr8gatsby.github.io/images/podcast-cover.jpg"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+    </itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Exploring the world of Gatsby and modern web development. Join us as we dive into the latest features, best practices, and real-world applications of Gatsby.</itunes:summary>
+    <itunes:keywords>gatsby, web development, javascript, react, static site generation, jamstack</itunes:keywords>
+    <itunes:new-feed-url>https://gr8gatsby.github.io/feed.xml</itunes:new-feed-url>
+    <atom:link href="https://gr8gatsby.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <!-- Sample Episode 1 -->
+    <item>
+      <title>Getting Started with Gatsby</title>
+      <description>In this episode, we explore the basics of Gatsby and why it's a great choice for modern web development. We'll cover installation, project setup, and your first Gatsby site.</description>
+      <pubDate>Mon, 01 Apr 2024 12:00:00 GMT</pubDate>
+      <enclosure url="https://gr8gatsby.github.io/episodes/episode1.mp3" length="36000000" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://gr8gatsby.github.io/episodes/episode1</guid>
+      <itunes:duration>30:00</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://gr8gatsby.github.io/images/episode1.jpg"/>
+      <itunes:summary>In this episode, we explore the basics of Gatsby and why it's a great choice for modern web development. We'll cover installation, project setup, and your first Gatsby site.</itunes:summary>
+      <itunes:keywords>gatsby, getting started, tutorial, web development</itunes:keywords>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+
+    <!-- Sample Episode 2 -->
+    <item>
+      <title>Advanced Gatsby Features</title>
+      <description>Dive deep into Gatsby's advanced features and learn how to optimize your site for performance. We'll explore GraphQL, plugins, and deployment strategies.</description>
+      <pubDate>Mon, 08 Apr 2024 12:00:00 GMT</pubDate>
+      <enclosure url="https://gr8gatsby.github.io/episodes/episode2.mp3" length="36000000" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://gr8gatsby.github.io/episodes/episode2</guid>
+      <itunes:duration>45:00</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://gr8gatsby.github.io/images/episode2.jpg"/>
+      <itunes:summary>Dive deep into Gatsby's advanced features and learn how to optimize your site for performance. We'll explore GraphQL, plugins, and deployment strategies.</itunes:summary>
+      <itunes:keywords>gatsby, advanced, performance, graphql, plugins</itunes:keywords>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss> 
